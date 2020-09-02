@@ -1,0 +1,1 @@
+{"version":3,"sources":["test.scss","style.scss"],"names":[],"mappings":"AAAA,IAAI,CAAC;EACH,KAAK,EAAE,MAAM,GACd;;ACDD,IAAI,CAAC;EACH,OAAO,EAAE,MAAM;EACf,UAAU,EAAE,GAAG,GAChB","file":"style.97fcb138.css","sourceRoot":"..\\src","sourcesContent":["body {\r\n  color: yellow;\r\n}","@import \"./test\";\r\nbody {\r\n  display: inline;\r\n  background: red;\r\n}"]}
