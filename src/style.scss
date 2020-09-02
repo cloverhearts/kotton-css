@@ -1,5 +1,3 @@
-@import "./test";
-body {
-  display: inline;
-  background: red;
-}
+@import 'vendors';
+@import 'document';
+@import 'components/styles';
