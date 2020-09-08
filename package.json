@@ -1,27 +1,35 @@
 {
-  "name": "brunch-style.css",
+  "name": "kotton-css",
   "version": "1.0.0",
-  "description": "Brunch 서비스와 유사한 형태의 스타일링 제공하는 classless 스타일시트 라이브러리",
-  "main": "./src/style.scss",
-  "module": "./dist/style.css",
+  "description": "한글과 잘 어울리는 classless 스타일 라이브러리",
+  "main": "src/kotton-style.scss",
+  "module": "./dist/kotton-style.css",
   "scripts": {
     "clean": "rimraf ./dist ./docs",
     "build": "npm-run-all build:*",
-    "build:style": "node-sass -r --output dist ./src/style.scss",
+    "build:style": "node-sass -r --output dist src/kotton-style.scss",
     "watch": "npm-run-all -p watch:*",
     "watch:html": "parcel -p 3000 ./src/demo.html --out-dir docs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cloverhearts/brunch-style.css.git"
+    "url": "git+https://github.com/cloverhearts/kotton-css.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "css",
+    "style",
+    "korean",
+    "hangul",
+    "white",
+    "black",
+    "simple"
+  ],
+  "author": "cloverhearts",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cloverhearts/brunch-style.css/issues"
+    "url": "https://github.com/cloverhearts/kotton-css/issues"
   },
-  "homepage": "https://github.com/cloverhearts/brunch-style.css#readme",
+  "homepage": "https://github.com/cloverhearts/kotton-css#readme",
   "devDependencies": {
     "node-sass": "^4.14.1",
     "normalize-scss": "^7.0.1",

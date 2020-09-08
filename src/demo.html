@@ -6,13 +6,22 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Brunch-style.css</title>
-  <link rel="stylesheet" href="./style.scss">
+  <link rel="stylesheet" href="./kotton-style.scss">
+  <style>
+    article > header {
+      text-align: center;
+    }
+    article section {
+      max-width: 700px;
+      margin: 2rem auto;
+    }
+  </style>
 </head>
 <body>
   <main class="brunch-style">
     <article>
       <header>
-        <h1>Brunch-style.css</h1>
+        <h1>Kotton.css</h1>
       </header>
       <section>
         <header>
@@ -30,12 +39,14 @@
           <h6>열심히 내리다 보니 중간 어디쯤 있었다</h6>
         </div>
         <div class="code">
-          &lt;h1>Heading 헤드라인1&lt;/h1><br />
-          &lt;h2>Heading 헤드라인2&lt;/h2><br />
-          &lt;h3>Heading 헤드라인3&lt;/h3><br />
-          &lt;h4>Heading 헤드라인4&lt;/h4><br />
-          &lt;h5>Heading 헤드라인5&lt;/h5><br />
-          &lt;h6>Heading 헤드라인6&lt;/h6><br />
+          <code>
+            &lt;h1>Heading 헤드라인1&lt;/h1><br />
+            &lt;h2>Heading 헤드라인2&lt;/h2><br />
+            &lt;h3>Heading 헤드라인3&lt;/h3><br />
+            &lt;h4>Heading 헤드라인4&lt;/h4><br />
+            &lt;h5>Heading 헤드라인5&lt;/h5><br />
+            &lt;h6>Heading 헤드라인6&lt;/h6><br />
+          </code>
         </div>
       </section>
 
@@ -226,6 +237,56 @@
           버튼입니다
         </p>
         <button>이것은 버튼입니다</button>
+        <button class="primary">이것은 버튼입니다</button>
+      </section>
+      <section>
+        <header>
+          <h2>Input</h2>
+        </header>
+        <p>
+          text 입력폼입니다
+        </p>
+        <label>하하하
+          <input type="text" />
+        </label>
+      </section>
+      <section>
+        <header>
+          <h2>Checkbox</h2>
+        </header>
+        <p>
+          checkbox 입력폼입니다
+        </p>
+        <label>하하하
+          <input type="checkbox" />
+        </label>
+      </section>
+      <section>
+        <header>
+          <h2>Radio button</h2>
+        </header>
+        <p>
+          radio button 입력폼입니다
+        </p>
+        <label>하하하
+          <input type="radio" />
+        </label>
+      </section>
+      <section>
+        <header>
+          <h2>Dropdown</h2>
+        </header>
+        <p>
+          checkbox 입력폼입니다
+        </p>
+        <label>하하하
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+        </label>
       </section>
       <section class="sample">
         <header>
