@@ -1,0 +1,16 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    th {
+        background: #ddd;
+        color: #777;
+        padding: 0.5rem 1rem;
+        border: 1px solid #eee;
+        word-break: break-all;
+    }
+    td {
+        border: 1px solid #eee;
+        padding: 0.5rem 1rem;
+        word-break: break-all;
+    }
+}

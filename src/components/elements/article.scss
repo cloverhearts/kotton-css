@@ -1,13 +1,16 @@
 article {
  section {
    max-width: 700px;
-   margin: 0 auto;
+   margin: 2rem auto;
    img {
      box-shadow: 0 0.3em 0.8rem #999;
      margin: 0.7rem 0;
    }
    figure {
      img {}
+   }
+   table {
+    margin: 2rem 0;
    }
  }
 }
