@@ -1,6 +1,7 @@
 h1, h2, h3, h4, h5, h6 {
   @import url('https://fonts.googleapis.com/earlyaccess/nanummyeongjo.css');
   font-family: 'Nanum Myeongjo', 'Noto Sans Light', 'Malgun Gothic', sans-serif;
+  word-break: keep-all;
 }
 
 h1 {
