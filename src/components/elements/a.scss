@@ -23,6 +23,11 @@ a {
             transition: min-height 0.1s ease;
             mix-blend-mode: difference;
         }
+        &:hover {
+            &:before {
+                min-height: 100%;
+            }
+        }
     }
 
     &:hover {
@@ -41,6 +46,6 @@ a {
         min-height: 0;
         content: '';
         transition: min-height 0.1s ease;
-        mix-blend-mode: difference;
+        mix-blend-mode: color-burn;
     }
 }
