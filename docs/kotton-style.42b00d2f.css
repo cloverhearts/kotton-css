@@ -1,0 +1,632 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/earlyaccess/notosanskr.css");
+@import url("https://fonts.googleapis.com/earlyaccess/nanummyeongjo.css");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Nanum+Pen+Script&family=Yeon+Sung&display=swap");
+.kotton-style {
+  font-family: "Noto Sans Light", "Malgun Gothic", sans-serif;
+  color: #333;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  line-height: 1.8em;
+  /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
+  /* Document
+   ========================================================================== */
+  /**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+  /* Sections
+   ========================================================================== */
+  /**
+ * Remove the margin in all browsers (opinionated).
+ */
+  /**
+ * Add the correct display in IE 9-.
+ */
+  /**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+  /* Grouping content
+   ========================================================================== */
+  /**
+ * Add the correct display in IE 9-.
+ */
+  /**
+ * Add the correct margin in IE 8.
+ */
+  /**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+  /**
+ * Add the correct display in IE.
+ */
+  /**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+  /* Links
+   ========================================================================== */
+  /**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+  /* Text-level semantics
+   ========================================================================== */
+  /**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+  /**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+  /**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+  /**
+ * Add the correct font style in Android 4.3-.
+ */
+  /**
+ * Add the correct background and color in IE 9-.
+ */
+  /**
+ * Add the correct font size in all browsers.
+ */
+  /**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+  /* Embedded content
+   ========================================================================== */
+  /**
+ * Add the correct display in IE 9-.
+ */
+  /**
+ * Add the correct display in iOS 4-7.
+ */
+  /**
+ * Remove the border on images inside links in IE 10-.
+ */
+  /**
+ * Hide the overflow in IE.
+ */
+  /* Forms
+   ========================================================================== */
+  /**
+ * Known issues:
+ * - `select`:
+ *   By default, Chrome on OS X and Safari on OS X allow very limited styling of
+ *   select, unless a border property is set. The default font weight on
+ *   optgroup elements cannot safely be changed in Chrome on OSX and Safari on
+ *   OS X.
+ * - `[type="checkbox"]`:
+ *   It is recommended that you do not style checkbox and radio inputs as
+ *   Firefox's implementation does not respect box-sizing, padding, or width.
+ * - `[type="number"]`:
+ *   Certain font size values applied to number inputs cause the cursor style of
+ *   the decrement button to change from `default` to `text`.
+ * - `[type="search"]`:
+ *   The search input is not fully stylable by default. In Chrome and Safari on
+ *   OSX/iOS you can't control `font`, `padding`, `border`, or `background`. In
+ *   Chrome and Safari on Windows you can't control `border` properly. It will
+ *   apply `border-width` but will only show a border color (which cannot be
+ *   controlled) for the outer 1px of that border. Applying
+ *   `-webkit-appearance: textfield` addresses these issues without removing the
+ *   benefits of search inputs (e.g. showing past searches). Safari (but not
+ *   Chrome) will clip the cancel button on when it has padding (and `textfield`
+ *   appearance).
+ * - `::placeholder`:
+ *   In Edge, placeholders will disappear on `relative` or `absolute` positioned
+ *   `<input>` elements if you use `opacity` less than `1` due to a
+ *   [bug](https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/3901363/).
+ */
+  /**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+  /**
+ * Show the overflow in IE.
+ */
+  /**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+  /**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+  /**
+ * Show the overflow in Edge.
+ */
+  /**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+  /**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+  /**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+  /**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+  /**
+ * Correct the padding in Firefox.
+ */
+  /**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+  /**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+  /**
+ * Remove the default vertical scrollbar in IE.
+ */
+  /* Interactive
+   ========================================================================== */
+  /*
+ * Add the correct display in Edge, IE, and Firefox.
+ */
+  /*
+ * Add the correct display in all browsers.
+ */
+  /*
+ * Add the correct display in IE 9-.
+ */
+  /* Scripting
+   ========================================================================== */
+  /**
+ * Add the correct display in IE 9-.
+ */
+  /**
+ * Add the correct display in IE.
+ */
+  /* Hidden
+   ========================================================================== */
+  /**
+ * Add the correct display in IE 10-.
+ */ }
+  .kotton-style *:focus {
+    outline: 1px solid #999; }
+  .kotton-style html {
+    line-height: 1.15;
+    /* 1 */
+    -ms-text-size-adjust: 100%;
+    /* 2 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */ }
+  .kotton-style body {
+    margin: 0; }
+  .kotton-style article,
+  .kotton-style aside,
+  .kotton-style footer,
+  .kotton-style header,
+  .kotton-style nav,
+  .kotton-style section {
+    display: block; }
+  .kotton-style h1 {
+    font-size: 2em;
+    margin: 0.67em 0; }
+  .kotton-style figcaption,
+  .kotton-style figure {
+    display: block; }
+  .kotton-style figure {
+    margin: 1em 40px; }
+  .kotton-style hr {
+    box-sizing: content-box;
+    /* 1 */
+    height: 0;
+    /* 1 */
+    overflow: visible;
+    /* 2 */ }
+  .kotton-style main {
+    display: block; }
+  .kotton-style pre, .kotton-style code,
+  .kotton-style kbd,
+  .kotton-style samp {
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */ }
+  .kotton-style a {
+    background-color: transparent;
+    /* 1 */
+    -webkit-text-decoration-skip: objects;
+    /* 2 */ }
+  .kotton-style abbr[title] {
+    border-bottom: none;
+    /* 1 */
+    text-decoration: underline;
+    /* 2 */
+    text-decoration: underline dotted;
+    /* 2 */ }
+  .kotton-style b,
+  .kotton-style strong {
+    font-weight: inherit; }
+  .kotton-style b,
+  .kotton-style strong {
+    font-weight: bolder; }
+  .kotton-style dfn {
+    font-style: italic; }
+  .kotton-style mark {
+    background-color: #ff0;
+    color: #000; }
+  .kotton-style small {
+    font-size: 80%; }
+  .kotton-style sub,
+  .kotton-style sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline; }
+  .kotton-style sub {
+    bottom: -0.25em; }
+  .kotton-style sup {
+    top: -0.5em; }
+  .kotton-style audio,
+  .kotton-style video {
+    display: inline-block; }
+  .kotton-style audio:not([controls]) {
+    display: none;
+    height: 0; }
+  .kotton-style img {
+    border-style: none; }
+  .kotton-style svg:not(:root) {
+    overflow: hidden; }
+  .kotton-style button,
+  .kotton-style input,
+  .kotton-style optgroup,
+  .kotton-style select,
+  .kotton-style textarea {
+    line-height: 1.15;
+    /* 1 */
+    font-family: sans-serif;
+    /* 1 */
+    font-size: 100%;
+    /* 1 */
+    margin: 0;
+    /* 2 */ }
+  .kotton-style button {
+    overflow: visible; }
+  .kotton-style button,
+  .kotton-style select {
+    /* 1 */
+    text-transform: none; }
+  .kotton-style button,
+  .kotton-style html [type="button"],
+  .kotton-style [type="reset"],
+  .kotton-style [type="submit"] {
+    -webkit-appearance: button;
+    /* 2 */ }
+  .kotton-style button,
+  .kotton-style [type="button"],
+  .kotton-style [type="reset"],
+  .kotton-style [type="submit"] {
+    /**
+   * Remove the inner border and padding in Firefox.
+   */
+    /**
+   * Restore the focus styles unset by the previous rule.
+   */ }
+    .kotton-style button::-moz-focus-inner,
+    .kotton-style [type="button"]::-moz-focus-inner,
+    .kotton-style [type="reset"]::-moz-focus-inner,
+    .kotton-style [type="submit"]::-moz-focus-inner {
+      border-style: none;
+      padding: 0; }
+    .kotton-style button:-moz-focusring,
+    .kotton-style [type="button"]:-moz-focusring,
+    .kotton-style [type="reset"]:-moz-focusring,
+    .kotton-style [type="submit"]:-moz-focusring {
+      outline: 1px dotted ButtonText; }
+  .kotton-style input {
+    overflow: visible; }
+  .kotton-style [type="checkbox"],
+  .kotton-style [type="radio"] {
+    box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */ }
+  .kotton-style [type="number"]::-webkit-inner-spin-button,
+  .kotton-style [type="number"]::-webkit-outer-spin-button {
+    height: auto; }
+  .kotton-style [type="search"] {
+    -webkit-appearance: textfield;
+    /* 1 */
+    outline-offset: -2px;
+    /* 2 */
+    /**
+   * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+   */ }
+    .kotton-style [type="search"]::-webkit-search-cancel-button, .kotton-style [type="search"]::-webkit-search-decoration {
+      -webkit-appearance: none; }
+  .kotton-style ::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    /* 1 */
+    font: inherit;
+    /* 2 */ }
+  .kotton-style fieldset {
+    padding: 0.35em 0.75em 0.625em; }
+  .kotton-style legend {
+    box-sizing: border-box;
+    /* 1 */
+    display: table;
+    /* 1 */
+    max-width: 100%;
+    /* 1 */
+    padding: 0;
+    /* 3 */
+    color: inherit;
+    /* 2 */
+    white-space: normal;
+    /* 1 */ }
+  .kotton-style progress {
+    display: inline-block;
+    /* 1 */
+    vertical-align: baseline;
+    /* 2 */ }
+  .kotton-style textarea {
+    overflow: auto; }
+  .kotton-style details {
+    display: block; }
+  .kotton-style summary {
+    display: list-item; }
+  .kotton-style menu {
+    display: block; }
+  .kotton-style canvas {
+    display: inline-block; }
+  .kotton-style template {
+    display: none; }
+  .kotton-style [hidden] {
+    display: none; }
+  .kotton-style a {
+    display: inline-block;
+    position: relative;
+    color: #2ec1ac;
+    font-weight: 800;
+    text-decoration: underline dotted #2ec1ac; }
+    .kotton-style a:before {
+      content: ''; }
+    .kotton-style a:visited {
+      color: #c060a1;
+      text-decoration: underline dotted #c060a1; }
+      .kotton-style a:visited:before {
+        display: block;
+        position: absolute;
+        background: #dbc6eb;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 0;
+        content: '';
+        transition: min-height 0.1s ease;
+        mix-blend-mode: difference; }
+      .kotton-style a:visited:hover:before {
+        min-height: 100%; }
+    .kotton-style a:hover:before {
+      min-height: 100%; }
+    .kotton-style a:before {
+      display: block;
+      position: absolute;
+      background: #99f3bd;
+      top: 0;
+      left: 0;
+      width: 100%;
+      min-height: 0;
+      content: '';
+      transition: min-height 0.1s ease;
+      mix-blend-mode: color-burn; }
+  .kotton-style article section img {
+    box-shadow: 0 0.3em 0.8rem #999;
+    margin: 0.7rem 0; }
+  .kotton-style article section table {
+    margin: 2rem 0; }
+  .kotton-style blockquote {
+    position: relative;
+    margin: 2rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    word-break: keep-all; }
+    .kotton-style blockquote:before {
+      position: absolute;
+      width: 80%;
+      height: 0.03rem;
+      top: 0;
+      left: 10%;
+      content: ''; }
+    .kotton-style blockquote:after {
+      position: absolute;
+      width: 80%;
+      height: 0.03rem;
+      left: 10%;
+      bottom: 0;
+      content: ''; }
+    .kotton-style blockquote p {
+      position: relative;
+      text-align: center;
+      word-break: keep-all;
+      font-family: 'Nanum Myeongjo', 'Noto Sans Light', 'Malgun Gothic', sans-serif;
+      font-weight: 800;
+      font-size: 1rem;
+      line-height: 1.8rem; }
+      .kotton-style blockquote p:before {
+        position: absolute;
+        top: 0;
+        left: -2.5rem;
+        content: '‘‘';
+        font-size: 5rem;
+        color: #ddd;
+        letter-spacing: -0.3rem; }
+      .kotton-style blockquote p:after {
+        position: absolute;
+        bottom: -3.6rem;
+        right: -2.3rem;
+        content: '’’';
+        font-size: 5rem;
+        color: #ddd;
+        letter-spacing: -0.3rem; }
+    .kotton-style blockquote footer {
+      font-family: 'Nanum Myeongjo', 'Noto Sans Light', 'Malgun Gothic', sans-serif;
+      margin-top: 1rem;
+      font-weight: 800;
+      color: #999; }
+      .kotton-style blockquote footer:before {
+        content: '~'; }
+      .kotton-style blockquote footer:after {
+        content: '~'; }
+  .kotton-style button {
+    position: relative;
+    background: #fff;
+    border: 1px solid #ddd;
+    color: #999;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all .1s; }
+    .kotton-style button:hover {
+      background: #eee;
+      color: #333; }
+    .kotton-style button:active {
+      background: #ddd;
+      color: #333; }
+    .kotton-style button:after {
+      position: absolute;
+      bottom: -0.3rem;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      content: '';
+      animation: 1s flashfocus infinite alternate-reverse; }
+    .kotton-style button.primary {
+      border: 1px solid #abc2e8;
+      border: 1px solid #abc2e8;
+      color: #5b88d2; }
+      .kotton-style button.primary:hover {
+        background: #d3dff3; }
+      .kotton-style button.primary:active {
+        background: #83a5dd;
+        color: #fff; }
+  .kotton-style hgroup *:first-child {
+    color: #333; }
+  .kotton-style hgroup *:nth-child(n + 2) {
+    margin-top: -1.3rem;
+    color: #aaa; }
+  .kotton-style hgroup h2 {
+    padding-left: 0.1rem; }
+  .kotton-style hgroup h3 {
+    padding-left: 0.2rem; }
+  .kotton-style hgroup h4 {
+    padding-left: 0.25rem; }
+  .kotton-style hgroup h5 {
+    padding-left: 0.3rem; }
+  .kotton-style hgroup h6 {
+    padding-left: 0.35rem; }
+  .kotton-style hr {
+    width: 22px;
+    height: 22px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-dots' width='24' height='24' viewBox='0 0 24 24' stroke-width='1.5' stroke='%232c3e50' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z'/%3E%3Ccircle cx='5' cy='12' r='1' /%3E%3Ccircle cx='12' cy='12' r='1' /%3E%3Ccircle cx='19' cy='12' r='1' /%3E%3C/svg%3E");
+    border: 0;
+    margin: 1.8rem auto; }
+  .kotton-style h1, .kotton-style h2, .kotton-style h3, .kotton-style h4, .kotton-style h5, .kotton-style h6 {
+    font-family: 'Nanum Myeongjo', 'Noto Sans Light', 'Malgun Gothic', sans-serif;
+    word-break: keep-all; }
+  .kotton-style h1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem; }
+  .kotton-style h2 {
+    font-size: 1.7rem;
+    line-height: 1.7rem; }
+  .kotton-style h3 {
+    font-size: 1.3rem;
+    line-height: 1.3rem; }
+  .kotton-style h4 {
+    font-size: 1.1rem;
+    line-height: 1.1rem; }
+  .kotton-style h5 {
+    font-size: 0.9rem;
+    line-height: 0.9rem; }
+  .kotton-style h6 {
+    font-size: 0.7rem;
+    line-height: 0.7rem; }
+  .kotton-style input:focus {
+    outline: none; }
+  .kotton-style figure {
+    text-align: center; }
+    .kotton-style figure img {
+      max-width: 100%; }
+    .kotton-style figure figcaption {
+      text-align: center;
+      font-size: 0.7rem;
+      color: #909090; }
+  .kotton-style mark {
+    display: inline-block;
+    position: relative;
+    background: transparent;
+    z-index: 0; }
+    .kotton-style mark:before {
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 80%;
+      top: 0.15em;
+      left: -0.2em;
+      background: #98fb00;
+      transform: skew(-10deg) rotate(-1deg);
+      border-left: 3px solid #79c800;
+      border-right: 3px solid #79c800;
+      border-radius: 2px;
+      opacity: 0.4;
+      content: ''; }
+    .kotton-style mark.pink:before {
+      background: #ff369b;
+      border-left: 3px solid #ff0381;
+      border-right: 3px solid #ff0381; }
+  .kotton-style article section p {
+    word-break: keep-all; }
+  .kotton-style q {
+    position: relative;
+    font-family: 'Nanum Myeongjo', 'Noto Sans Light', 'Malgun Gothic', sans-serif;
+    margin: 0 1em;
+    color: #999;
+    font-weight: 800;
+    font-size: 1rem; }
+    .kotton-style q:before {
+      position: absolute;
+      top: 0;
+      left: -0.5em;
+      content: '“';
+      font-size: 1.4rem;
+      color: #999; }
+    .kotton-style q:after {
+      position: absolute;
+      top: 0;
+      right: -0.5em;
+      content: '”';
+      font-size: 1.4rem;
+      color: #999; }
+  .kotton-style table {
+    width: 100%;
+    border-collapse: collapse; }
+    .kotton-style table th {
+      background: #ddd;
+      color: #888;
+      padding: 0.5rem 1rem;
+      border: 1px solid #eee;
+      word-break: break-all; }
+    .kotton-style table td {
+      border: 1px solid #eee;
+      padding: 0.5rem 1rem;
+      word-break: break-all; }
+
+
+/*# sourceMappingURL=/kotton-style.42b00d2f.css.map */
