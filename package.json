@@ -9,7 +9,7 @@
     "build": "npm-run-all build:*",
     "build:style": "node-sass -r --output dist ./src/style.scss",
     "watch": "npm-run-all -p watch:*",
-    "watch:html": "parcel -p 8000 ./src/demo.html --out-dir docs"
+    "watch:html": "parcel -p 3000 ./src/demo.html --out-dir docs"
   },
   "repository": {
     "type": "git",

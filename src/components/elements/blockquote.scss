@@ -1,0 +1,43 @@
+blockquote {
+  position: relative;
+  margin: 2rem;
+  padding: 1rem 0;
+  text-align: center;
+  word-break: keep-all;
+  &:before {
+    position: absolute;
+    width: 80%;
+    height: 0.03rem;
+    top: 0;
+    left: 10%;
+    background: #999;
+    content: '';
+  }
+  &:after {
+    position: absolute;
+    width: 80%;
+    height: 0.03rem;
+    left: 10%;
+    bottom: 0;
+    background: #999;
+    content: '';
+  }
+
+  p {
+    text-align: center;
+    word-break: keep-all;
+    font-family: 'Nanum Myeongjo', 'Noto Sans Light', 'Malgun Gothic', sans-serif;
+    font-weight: 400;
+  }
+
+  footer {
+    font-family: 'Nanum Myeongjo', 'Noto Sans Light', 'Malgun Gothic', sans-serif;
+    margin-top: 1rem;
+    &:before {
+      content: '~';
+    }
+    &:after {
+      content: '~';
+    }
+  }
+}
