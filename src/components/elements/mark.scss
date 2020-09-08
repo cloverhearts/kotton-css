@@ -2,6 +2,7 @@ mark {
     display: inline-block;
     position: relative;
     background: transparent;
+    z-index: 0;
     &:before {
         position: absolute;
         z-index: -1;
@@ -16,5 +17,12 @@ mark {
         border-radius: 2px;
         opacity: 0.4;
         content: '';
+    }
+    &.pink {
+        &:before {
+            background: darken(hotpink, 10);
+            border-left: 3px solid darken(hotpink, 20);
+            border-right: 3px solid darken(hotpink, 20);
+        }
     }
 }
