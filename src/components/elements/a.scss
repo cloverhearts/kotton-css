@@ -1,0 +1,46 @@
+a {
+    display: inline-block;
+    position: relative;
+    color: #2ec1ac;
+    font-weight: 800;
+    text-decoration: underline dotted #2ec1ac;
+    &:before {
+        content: '';
+        
+    }
+    &:visited {
+        color: #c060a1;
+        text-decoration: underline dotted #c060a1;
+        &:before {
+            display: block;
+            position: absolute;
+            background: #dbc6eb;
+            top: 0;
+            left: 0;
+            width: 100%;
+            min-height: 0;
+            content: '';
+            transition: min-height 0.1s ease;
+            mix-blend-mode: difference;
+        }
+    }
+
+    &:hover {
+        &:before {
+            min-height: 100%;
+        }
+    }
+
+    &:before {
+        display: block;
+        position: absolute;
+        background: #99f3bd;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 0;
+        content: '';
+        transition: min-height 0.1s ease;
+        mix-blend-mode: difference;
+    }
+}

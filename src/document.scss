@@ -1,9 +1,16 @@
 .brunch-style {
   @import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
+  @import url('https://fonts.googleapis.com/earlyaccess/nanummyeongjo.css');
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Nanum+Pen+Script&family=Yeon+Sung&display=swap');
   font-family: "Noto Sans Light", "Malgun Gothic", sans-serif;
   color: #333;
   font-size: 0.9rem;
   font-weight: 400;
   letter-spacing: 0.8px;
   line-height: 1.8em;
+
+  *:focus {
+    outline: 1px solid #999;
+    box-shadow: 0.05rem 0.05rem 0.25rem black;
+  }
 }
