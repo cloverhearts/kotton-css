@@ -427,7 +427,7 @@
       content: '';
       transition: min-height 0.1s ease;
       mix-blend-mode: color-burn; }
-  .kotton-style article section img {
+  .kotton-style article section figure img {
     box-shadow: 0 0.3em 0.8rem #999;
     margin: 0.7rem 0; }
   .kotton-style article section table {
@@ -593,6 +593,8 @@
       border-right: 3px solid #ff0381; }
   .kotton-style article section p {
     word-break: keep-all; }
+  .kotton-style p + p {
+    margin-top: -0.9em; }
   .kotton-style q {
     position: relative;
     font-family: 'Nanum Myeongjo', 'Noto Sans Light', 'Malgun Gothic', sans-serif;
