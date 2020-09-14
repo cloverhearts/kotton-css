@@ -8,6 +8,7 @@
     "clean": "rimraf ./dist ./docs",
     "build": "npm-run-all build:*",
     "build:style": "node-sass --importer=node_modules/node-sass-tilde-importer --output-style compressed -r --output dist src/kotton-style.scss",
+    "build:html": "parcel -p 3000 src/index.html --out-dir docs --public-url /kotton-css",
     "watch": "npm-run-all -p watch:*",
     "watch:html": "parcel -p 3000 src/index.html --out-dir docs"
   },
