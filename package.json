@@ -1,6 +1,6 @@
 {
   "name": "kotton-css",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "한글과 잘 어울리는 classless 스타일 라이브러리",
   "main": "src/kotton-style.scss",
   "module": "./dist/kotton-style.css",

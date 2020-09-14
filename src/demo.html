@@ -5,7 +5,9 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>kotton.css 한글이 잘 어울리는 스타일시트</title>
+  <title>kotton.css - 한글이 잘 어울리는 스타일시트</title>
+  <meta name="description" content="한글이 잘 어울리는 cssless 스타일 시트 - CSS 프레임워크">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./kotton-style.scss">
   <style>
 
@@ -33,12 +35,34 @@
       max-width: 700px;
       margin: 2rem auto;
     }
+    article > section {
+      margin-bottom: 30vh;
+      padding: 0 2rem;
+    }
+    article > section:nth-child(n + 3) {
+      margin-bottom: 50vh;
+    }
+    #tags > section {
+      margin-bottom: 50vh;
+    }
+    img {
+      max-width: 100%;
+    }
     .name-meta {
       text-align: center;
+    }
+    .github-logo {
+      display: block;
+      text-align: right;
     }
   </style>
 </head>
 <body>
+  <div class="github-logo">
+    <a href="https://github.com/cloverhearts/kotton-css" class="no-hover">
+      <img src="./assets/github-logo.png" alt="github repository">
+    </a>
+  </div>
   <main class="kotton-style">
     <article>
       <header>
@@ -49,8 +73,12 @@
       </header>
       <section>
         <p class="name-meta">
-          <img alt="GitHub" src="https://img.shields.io/github/license/cloverhearts/kotton-css?style=social">
-          <img alt="npm" src="https://img.shields.io/npm/v/kotton-css?style=social">
+          <a href="https://github.com/cloverhearts/kotton-css" class="no-hover">
+            <img alt="GitHub" src="https://img.shields.io/github/license/cloverhearts/kotton-css?style=social">
+          </a>
+          <a href="https://www.npmjs.com/package/kotton-css" class="no-hover">
+            <img alt="npm" src="https://img.shields.io/npm/v/kotton-css?style=social">
+          </a>
         </p>
       </section>
       <section>
@@ -62,46 +90,35 @@
             <h3>한글을 위한 문서 스타일시트</h3>
           </header>
             <p>
-              많은 CSS 프레임워크와 스타일시트들은 영어문서를 기준으로 작성되었습니다. 
+              한글을 기준으로 만들어진 CSS 스타일
             </p>
             <p>
-              그렇기 때문에 한글 문서에 적용한 뒤 생각과는 다른 외적인 모습에 당황하게 됩니다.
+              영어를 위한 멋진 CSS가 필요하듯이
             </p>
             <p>
-              Kotton.css는 처음부터 한글을 기본으로 스타일이 작성되어 있습니다.
-            </p>
-            <p>
-              Kotton.css를 통해서 예상 가능한 한글 문서 스타일을 적용해보세요.
+              한글에도 잘 어울리는 CSS가 필요합니다
             </p>
         </section>
         <section>
           <header>
-            <h3>웹표준 스펙에 맞추어 작성</h3>
+            <h3>문서 구조에 집중하세요</h3>
           </header>
             <p>
-              Kotton.css는 Class 사용을 최소화한 HTML5 시멘틱 마크업을 지향합니다. Header와 Article을 포함하여 HTML5 마크업 표준을 준수하여 작성하는 것만으로 훌륭한 한글 문서가 탄생합니다.
+              CLASS를 최소한으로 사용하는 스타일 시트입니다.
             </p>
-        </section>
-        <section>
-          <header>
-            <h3>쉬운 적용 및 해제</h3>
-          </header>
             <p>
-              Kotton.css는 적용 범위를 자유롭게 지정할 수 있습니다. 만약 원한다면 문서의 일부분만 적용하거나, 문서의 일부분만 적용하지 않을 수 있습니다. Kotton.css는 클래스를 최소한으로 사용하기 때문에, 언제든지 쉽게 다른 스타일시트로 변경이 가능합니다. 프로토타입용으로 너무 좋아요
+              번잡하고 불필요한 클래스 이름을 기억하지 마세요.
             </p>
         </section>
         <section>
           <header>
-            <h3>유연한 라이선스</h3>
+            <h3>당신과 기업 모두 자유롭게</h3>
           </header>
           <p>
-            Kotton.css는 <mark>개인*기업 모두 자유롭게 사용</mark> 할 수 있으며, 자유로운 라이선스들의 모임으로 탄생하였습니다.
+            Kotton.css는 <mark>개인*기업 모두 자유롭게 사용</mark> 할 수 있으며, 상업적으로 자유롭게 활용이 가능합니다
           </p>
           <p>
-            사용한 외부 폰트(본고딕, 나눔명조)와 tablericons 역시 자유로운 라이선스를 사용합니다
-          </p>
-          <p>
-            (상세 라이선스 조항는 각 폰트와 아이콘을 확인하세요)
+            사용한 외부 폰트(<a href="https://fonts.google.com/specimen/Noto+Sans#license" target="_blank">본고딕</a>, <a href="https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=3497" target="_blank">나눔명조</a>)와 <a href="https://tablericons.com/">tablericons</a> 역시 자유로운 라이선스를 사용합니다 (아이콘과 폰트는 해당 라이선스를 따릅니다)
           </p>
         </section>
       </section>
@@ -116,6 +133,9 @@
           <p>
             npm으로 사용하기
           </p>
+          <code>
+            npm i kotton-css
+          </code>
         </section>
         <section>
           <header>
@@ -124,19 +144,27 @@
           <p>
             link style 등록
           </p>
+          <code>
+            &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kotton-css@1.0.0/dist/kotton-style.min.css">
+          </code>
         </section>
         <section>
           <header>
-            <h3>영역 지정</h3>
+            <h3>적용하기</h3>
           </header>
           <p>
-            kotton-style 클래스 삽입
+            HTML 문서의 BODY에 kotton-style 클래스를 추가합니다.
           </p>
+          <code>
+            &lt;body class="kotton-style"><br>
+            &nbsp;&nbsp;....<br>
+            &lt;/body>
+          </code>
         </section>
       </section>
-      <section>
+      <section id="tags">
         <header>
-          <h2>태그</h2>
+          <h2>Tags</h2>
         </header>
         <section>
           <header>
@@ -145,6 +173,14 @@
               <h3>Heading</h3>
             </hgroup>
           </header>
+          <code>
+            &lt;h1>제목입니다&lt;/h1><br />
+            &lt;h2>제목입니다&lt;/h2><br />
+            &lt;h3>제목입니다&lt;/h3><br />
+            &lt;h4>제목입니다&lt;/h4><br />
+            &lt;h5>제목입니다&lt;/h5><br />
+            &lt;h6>제목입니다&lt;/h6>
+          </code>
           <h1>
             제목입니다
           </h1>
@@ -168,10 +204,20 @@
         <section>
           <header>
             <hgroup>
-              <h3>제목</h3>
+              <h3>제목 그룹</h3>
               <h3>Heading group</h3>
             </hgroup>
           </header>
+          <code>
+            &lt;hgroup><br>
+              &nbsp;&nbsp;&lt;h1>제목입니다&lt;/h1><br>
+              &nbsp;&nbsp;&lt;h1>Heading&lt;/h1><br>
+            &lt;/hgroup><br>
+            &lt;hgroup><br>
+              &nbsp;&nbsp;&lt;h1>제목입니다&lt;/h1><br>
+              &nbsp;&nbsp;&lt;h2>부연소제목&lt;/h2><br>
+            &lt;/hgroup>
+          </code>
           <hgroup>
             <h1>제목입니다</h1>
             <h1>Heading</h1>
@@ -189,6 +235,16 @@
               <h3>Blockquote</h3>
             </hgroup>
           </header>
+          <code>
+            &lt;blockquote><br>
+            &nbsp;&nbsp;&lt;p><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Blockquote 인용문의 출처 문서나 메시지를 가리키는 URL. 인용문의 맥락 혹은 출처 정보를 가리킬 용도입니다. 사용 일람 인용문의 들여쓰기를 바꾸려면 CSS margin-left와 margin-right, 혹은 margin 단축 속성을 사용하세요. 별도의 블록을 쓰지 않아도 될 짧은 인용문은 요소를 사용하세요<br>
+            &nbsp;&nbsp;&lt;/p><br>
+            &nbsp;&nbsp;&lt;footer><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;MDN<br>
+            &nbsp;&nbsp;&lt;/footer><br>
+            &lt;/blockquote>
+          </code>
           <blockquote>
             <p>
               Blockquote 인용문의 출처 문서나 메시지를 가리키는 URL. 인용문의 맥락 혹은 출처 정보를 가리킬 용도입니다. 사용 일람 인용문의 들여쓰기를 바꾸려면 CSS margin-left와 margin-right, 혹은 margin 단축 속성을 사용하세요. 별도의 블록을 쓰지 않아도 될 짧은 인용문은 요소를 사용하세요
@@ -206,6 +262,11 @@
               <h3>inline quote</h3>
             </hgroup>
           </header>
+          <code>
+            &lt;p><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;이것은 인라인 인용구입니다.&lt;q>태그로는 q로 사용할 수 있습니다&lt;/q> Blockquote와 달리 글 중간에 사용하기에 적합합니다<br>
+            &lt;/p>
+          </code>
           <p>
             이것은 인라인 인용구입니다.<q>태그로는 q로 사용할 수 있습니다</q> Blockquote와 달리 글 중간에 사용하기에 적합합니다
           </p>
@@ -218,6 +279,11 @@
               <h3>Paragraph</h3>
             </hgroup>
           </header>
+          <code>
+            &lt;p><br>
+            &nbsp;&nbsp;이것은 단락입니다<br>
+            &lt;/p>
+          </code>
           <p>
             이것은 단락입니다
           </p>
@@ -230,6 +296,9 @@
               <h3>Horizonbar</h3>
             </hgroup>
           </header>
+          <code>
+            &lt;hr />
+          </code>
           <hr />
         </section>
 
@@ -240,6 +309,11 @@
               <h3>Mark</h3>
             </hgroup>
           </header>
+          <code>
+            &lt;p><br>
+            &nbsp;&nbsp;컬러는 &lt;mark>기본&lt;/mark>이나 &lt;mark class="pink">pink&lt;/mark>를 지원합니다<br>
+            &lt;/p>
+          </code>
           <p>
             단락의 내용중 <mark>중요한</mark> 부분이 있다면 사용합니다.
           </p>
@@ -255,6 +329,10 @@
               <h3>Hyperlink</h3>
             </hgroup>
           </header>
+          <code>
+            &lt;a href="https://github.com/cloverhearts/kotton-css">효과있는 링크&lt;/a> <br>
+            &lt;a href="https://github.com/cloverhearts/kotton-css" class="no-hover">마우스 효과 없음&lt;/a> <br>
+          </code>
           <p>
             기본적인 A link입니다.
           </p>
@@ -266,26 +344,17 @@
         <section>
           <header>
             <hgroup>
-              <h3>하이퍼링크</h3>
-              <h3>Hyperlink</h3>
-            </hgroup>
-          </header>
-          <p>
-            a link는 일반적인 하이버링크로 외부 사이트 및 문서의 특정 지점으로 이동할때 사용 됩니다
-          </p>
-          <p>
-            Kotton.css의 <a href="https://github.com/cloverhearts/kotton-css">저장소</a>는 <a href="https://github.com">GITHUB</a>에 의해 관리되고 있습니다.
-          </p>
-        </section>
-        
-        <section>
-          <header>
-            <hgroup>
               <h3>버튼</h3>
               <h3>Buttons</h3>
             </hgroup>
           </header>
-          <button>기본 버튼</button> <button class="primary">Primary 버튼</button>
+          <code>
+            &lt;button>기본 버튼&lt;/button><br>
+            &lt;button class="primary">Primary 버튼&lt;/button>
+          </code>
+          <p>
+            <button>기본 버튼</button> <button class="primary">Primary 버튼</button>
+          </p>
         </section>
 
         <section>
@@ -295,9 +364,14 @@
               <h3>Image</h3>
             </hgroup>
           </header>
-          <img src="" alt="cotton" />
+          <code>
+            &lt;figure><br>
+            &nbsp;&nbsp;&lt;img src="./assets/kotton-logo.png" alt="cotton with shadow" /><br>
+            &nbsp;&nbsp;&lt;figcaption> figure 태그와 figcaption을 이용해, 그림자와 이미지 주석을 달 수 있습니다&lt;/figcaption><br>
+            &lt;/figure>
+          </code>
           <figure>
-            <img src="" alt="cotton with shadow" />
+            <img src="./assets/kotton-logo.png" alt="cotton with shadow" />
             <figcaption> figure 태그와 figcaption을 이용해, 그림자와 이미지 주석을 달 수 있습니다</figcaption>
           </figure>
         </section>
@@ -309,35 +383,71 @@
               <h3>Lists</h3>
             </hgroup>
           </header>
-          <ul>
-            <li>아이템</li>
-            <li>아이템</li>
-            <li>아이템</li>
-            <li>아이템</li>
-            <li>아이템
-              <ul>
-                <li>아이템</li>
-                <li>아이템</li>
-                <li>아이템</li>
-                <li>아이템</li>
-              </ul>
-            </li>
-          </ul>
-
-          <ol>
-            <li>순번 아이템</li>
-            <li>순번 아이템</li>
-            <li>순번 아이템</li>
-            <li>순번 아이템</li>
-            <li>순번 아이템
-              <ol>
-                <li>순번 아이템</li>
-                <li>순번 아이템</li>
-                <li>순번 아이템</li>
-                <li>순번 아이템</li>
-              </ol>
-            </li>
-          </ol>
+          <code>
+            &lt;ul><br>
+            &nbsp;&nbsp;&lt;li>아이템&lt;/li><br>
+              &nbsp;&nbsp;&lt;li>아이템&lt;/li><br>
+              &nbsp;&nbsp;&lt;li>아이템&lt;/li><br>
+              &nbsp;&nbsp;&lt;li>아이템&lt;/li><br>
+              &nbsp;&nbsp;&lt;li>아이템<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;ul><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>아이템&lt;/li><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>아이템&lt;/li><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>아이템&lt;/li><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>아이템&lt;/li><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul><br>
+            &nbsp;&nbsp;&lt;/li><br>
+            &lt;/ul>
+          </code>
+          <p>
+            <ul>
+              <li>아이템</li>
+              <li>아이템</li>
+              <li>아이템</li>
+              <li>아이템</li>
+              <li>아이템
+                <ul>
+                  <li>아이템</li>
+                  <li>아이템</li>
+                  <li>아이템</li>
+                  <li>아이템</li>
+                </ul>
+              </li>
+            </ul>
+          </p>
+          <br />
+          <code>
+            &lt;ol><br>
+            &nbsp;&nbsp;&lt;li>순번 아이템&lt;/li><br>
+            &nbsp;&nbsp;&lt;li>순번 아이템&lt;/li><br>
+            &nbsp;&nbsp;&lt;li>순번 아이템&lt;/li><br>
+            &nbsp;&nbsp;&lt;li>순번 아이템&lt;/li><br>
+            &nbsp;&nbsp;&lt;li>순번 아이템<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;ol><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>순번 아이템&lt;/li><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>순번 아이템&lt;/li><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>순번 아이템&lt;/li><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>순번 아이템&lt;/li><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;/ol><br>
+            &nbsp;&nbsp;&lt;/li><br>
+            &lt;/ol>
+          </code>
+          <p>
+            <ol>
+              <li>순번 아이템</li>
+              <li>순번 아이템</li>
+              <li>순번 아이템</li>
+              <li>순번 아이템</li>
+              <li>순번 아이템
+                <ol>
+                  <li>순번 아이템</li>
+                  <li>순번 아이템</li>
+                  <li>순번 아이템</li>
+                  <li>순번 아이템</li>
+                </ol>
+              </li>
+            </ol>
+          </p>
         </section>
 
         <section>
@@ -347,6 +457,42 @@
               <h3>Table</h3>
             </hgroup>
           </header>
+          <code>
+            &lt;table><br>
+            &nbsp;&nbsp;&lt;thead><br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;th>첫번째 컬럼 제목&lt;/th><br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;th>두번째 컬럼 제목&lt;/th><br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;th>세번째 컬럼 제목&lt;/th><br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;th>네번째 컬럼 제목&lt;/th><br>
+            &nbsp;&nbsp;&lt;/thead><br>
+            &nbsp;&nbsp;&lt;tbody><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;tr><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td>아이템&lt;/td><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td>아이템&lt;/td><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td>아이템&lt;/td><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td>아이템&lt;/td><br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr><br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;tr><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td>Item&lt;/td><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td>Item&lt;/td><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td>Item&lt;/td><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td>Item&lt;/td><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;tr><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td>아이템&lt;/td><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td>아이템&lt;/td><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td>아이템&lt;/td><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td>아이템&lt;/td><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;tr><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td>Item&lt;/td><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td>Item&lt;/td><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td>Item&lt;/td><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td>Item&lt;/td><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr><br>
+            &nbsp;&nbsp;&lt;/tbody><br>
+            &lt;/table>
+          </code>
           <table>
             <thead>
               <th>첫번째 컬럼 제목</th>
@@ -382,7 +528,33 @@
             </tbody>
           </table>
         </section>
-
+      </section>
+      <section>
+        <header>
+          <hgroup>
+            <h2>한글이 잘 어울리는 CSS가 있었으면 좋을것 같아요</h2>
+            <h3>날이 좋아 집근처 산을 오르고 있었을 때였을 겁니다</h3>
+          </hgroup>
+        </header>
+        <figure>
+          <img src="./assets/kotton-forest.jpg" alt="등산풍경" />
+          <figcaption>가지 사이의 하늘이 푸르다</figcaption>
+        </figure>
+        <p>
+          고민이 있을때에는 산을 오르곤 해요
+        </p>
+        <p>
+          산을 오른다해서, 고민이 땀과 함께 씻겨져 내려가는 것은 아니지만
+        </p>
+        <p>
+          가빠지는 숨과 함께
+        </p>
+        <p>
+          한걸음, 한글음을 내딛고 올라가는 기쁨이 있거든요
+        </p>
+        <h3>
+          kotton도 한글에 더 잘 어울릴 수 있기를...
+        </h3>
       </section>
     </article>
   </main>

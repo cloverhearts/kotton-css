@@ -6,7 +6,6 @@ a {
     text-decoration: underline dotted #2ec1ac;
     &:before {
         content: '';
-        
     }
     &:visited {
         color: #c060a1;
@@ -23,14 +22,14 @@ a {
             transition: min-height 0.1s ease;
             mix-blend-mode: difference;
         }
-        &:hover {
+        &:hover:not(.no-hover) {
             &:before {
                 min-height: 100%;
             }
         }
     }
 
-    &:hover {
+    &:hover:not(.no-hover) {
         &:before {
             min-height: 100%;
         }
