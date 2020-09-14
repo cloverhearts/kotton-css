@@ -9,7 +9,7 @@
     "build": "npm-run-all build:*",
     "build:style": "node-sass --importer=node_modules/node-sass-tilde-importer --output-style compressed -r --output dist src/kotton-style.scss",
     "watch": "npm-run-all -p watch:*",
-    "watch:html": "parcel -p 3000 ./src/demo.html --out-dir docs"
+    "watch:html": "parcel -p 3000 src/index.html --out-dir docs"
   },
   "repository": {
     "type": "git",
