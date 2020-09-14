@@ -7,7 +7,7 @@
   color: #333;
   font-size: 0.9rem;
   font-weight: 400;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.02rem;
   line-height: 1.8em;
   /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
   /* Document
@@ -196,8 +196,7 @@
    ========================================================================== */
   /**
  * Add the correct display in IE 10-.
- */
-  letter-spacing: 0.02rem; }
+ */ }
   .kotton-style *:focus {
     outline: 1px solid #999; }
   .kotton-style html {
@@ -413,9 +412,9 @@
         content: '';
         transition: min-height 0.1s ease;
         mix-blend-mode: difference; }
-      .kotton-style a:visited:hover:before {
+      .kotton-style a:visited:hover:not(.no-hover):before {
         min-height: 100%; }
-    .kotton-style a:hover:before {
+    .kotton-style a:hover:not(.no-hover):before {
       min-height: 100%; }
     .kotton-style a:before {
       display: block;
@@ -517,6 +516,12 @@
       .kotton-style button.primary:active {
         background: #83a5dd;
         color: #fff; }
+  .kotton-style code {
+    display: block;
+    background: #eee;
+    padding: 1rem;
+    word-break: break-all;
+    font-size: 0.8rem; }
   .kotton-style hgroup *:first-child {
     color: #333; }
   .kotton-style hgroup *:nth-child(n + 2) {
@@ -541,7 +546,8 @@
   .kotton-style h1, .kotton-style h2, .kotton-style h3, .kotton-style h4, .kotton-style h5, .kotton-style h6 {
     font-family: 'Nanum Myeongjo', 'Noto Sans Light', 'Malgun Gothic', sans-serif;
     word-break: keep-all;
-    font-weight: 800; }
+    font-weight: 800;
+    color: #333; }
   .kotton-style h1 {
     font-size: 2.5rem;
     line-height: 3.2rem; }
@@ -549,21 +555,26 @@
     font-size: 1.7rem;
     line-height: 2.2rem; }
   .kotton-style h3 {
-    font-size: 1.3rem;
-    line-height: 1.8rem; }
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #777; }
   .kotton-style h4 {
     font-size: 1.1rem;
-    line-height: 1.6rem; }
+    line-height: 1.6rem;
+    color: #777; }
   .kotton-style h5 {
     font-size: 0.9rem;
-    line-height: 1.4rem; }
+    line-height: 1.4rem;
+    color: #777; }
   .kotton-style h6 {
     font-size: 0.7rem;
-    line-height: 1.2rem; }
+    line-height: 1.2rem;
+    color: #777; }
   .kotton-style input:focus {
     outline: none; }
   .kotton-style figure {
-    text-align: center; }
+    text-align: center;
+    margin: 1em 0; }
     .kotton-style figure img {
       max-width: 100%; }
     .kotton-style figure figcaption {
@@ -598,6 +609,7 @@
   .kotton-style p + p {
     margin-top: -0.9em; }
   .kotton-style q {
+    display: inline-block;
     position: relative;
     font-family: 'Nanum Myeongjo', 'Noto Sans Light', 'Malgun Gothic', sans-serif;
     margin: 0 1em;

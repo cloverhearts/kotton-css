@@ -6,7 +6,7 @@
   color: #333;
   font-size: 0.9rem;
   font-weight: 400;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.02rem;
   line-height: 1.8em;
 
   *:focus {
@@ -15,6 +15,4 @@
 
   @import 'vendors';
   @import 'components/styles';
-
-  letter-spacing: 0.02rem;
 }
