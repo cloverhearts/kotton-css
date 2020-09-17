@@ -25,3 +25,24 @@ Kotton.css는 개인*기업 모두 자유롭게 사용 할 수 있으며, 상업
 자세한 내용은 공식 주소를 참조하세요.
 
 [공식 홈페이지](https://cloverhearts.github.io/kotton-css/)
+
+## Kotton.css 사용하기
+### NPM
+npm으로 사용하기
+
+```
+npm i kotton-css
+```
+
+### link style sheet
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kotton-css@1.0.0/dist/kotton-style.min.css">
+```
+
+## kotton-css 적용하기
+HTML 문서의 BODY에 kotton-style 클래스를 추가합니다.
+```
+<body class="kotton-style">
+  ....
+</body>
+```
