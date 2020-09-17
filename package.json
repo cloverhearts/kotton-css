@@ -1,6 +1,6 @@
 {
   "name": "kotton-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "한글과 잘 어울리는 classless 스타일 라이브러리",
   "main": "src/kotton-style.scss",
   "module": "./dist/kotton-style.css",
@@ -30,13 +30,14 @@
   "bugs": {
     "url": "https://github.com/cloverhearts/kotton-css/issues"
   },
-  "homepage": "https://github.com/cloverhearts/kotton-css#readme",
+  "homepage": "https://cloverhearts.github.io/kotton-css",
   "devDependencies": {
     "node-sass": "^4.14.1",
     "node-sass-tilde-importer": "^1.0.2",
     "normalize-scss": "^7.0.1",
     "npm-run-all": "^4.1.5",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.2"
   },
   "dependencies": {}
 }
