@@ -5,10 +5,11 @@
   "main": "src/kotton-style.scss",
   "module": "./dist/kotton-style.css",
   "scripts": {
-    "clean": "rimraf ./dist ./docs",
-    "build": "npm-run-all build:*",
+    "clean": "shx rm -rf ./dist ./docs",
+    "build": "npm-run-all clean build:*",
     "build:style": "node-sass --importer=node_modules/node-sass-tilde-importer --output-style compressed -r --output dist src/kotton-style.scss",
-    "build:html": "parcel -p 3000 src/index.html --out-dir docs --public-url /kotton-css",
+    "build:html": "parcel build src/index.html --out-dir docs --public-url /kotton-css",
+    "build:sitemap": "shx cp src/sitemap.xml docs/",
     "watch": "npm-run-all -p watch:*",
     "watch:html": "parcel -p 3000 src/index.html --out-dir docs"
   },
@@ -37,7 +38,7 @@
     "normalize-scss": "^7.0.1",
     "npm-run-all": "^4.1.5",
     "parcel-bundler": "^1.12.4",
-    "rimraf": "^3.0.2"
+    "shx": "^0.3.2"
   },
   "dependencies": {}
 }
